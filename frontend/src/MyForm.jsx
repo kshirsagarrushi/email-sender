@@ -22,7 +22,7 @@ export default function MyForm() {
   const [message, setMessage] = useState("");
   const [file, setFile] = useState(null);
   const [emails, setEmails] = useState([]); 
-  const baseUrl = "http://localhost:8000";
+  const baseUrl = "https://email-sender-backend-chi.vercel.app/";
 
   const handleUpload = (event) => {
     if (!file) {
